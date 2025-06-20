@@ -27,7 +27,7 @@ function InstallGPS {
 	param (
         $remoteComputer
     )
-$sourcePath = "\\tiabackup03\Software\Global\Paloalto\GlobalProtect\x64\GlobalProtect64.msi"
+$sourcePath = "\\server\Software\Global\Paloalto\GlobalProtect\x64\GlobalProtect64.msi"
 <#
 	$sourcePath1 = Read-Host -Prompt "Pls input Source File path"
 	if($sourcePath1)
