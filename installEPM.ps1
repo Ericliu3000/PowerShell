@@ -25,9 +25,9 @@ if($TargetFoler)
 else
 {$TargetFoler="C:\temp"}
 
-$sourcePathUninstall = "\\tiabackup03\Software\Global\Ivanti\Current EPM Agent\UninstallWinClient.exe"
+$sourcePathUninstall = "\\server01\Software\Global\Ivanti\Current EPM Agent\UninstallWinClient.exe"
 
-$sourcePath = "\\idcap47\Software\Global\Ivanti\Current EPM Agents\Non Production\*.*"
+$sourcePath = "\\server47\Software\Global\Ivanti\Current EPM Agents\Non Production\*.*"
 #$sourcePath1 = Read-Host -Prompt "Pls input Source File path"
 if($sourcePath1)
 {$sourcePath=$sourcePath1.trim()}
